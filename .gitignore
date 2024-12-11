@@ -1,0 +1,24 @@
+# Node.js
+node_modules/     # Verzeichnis für installierte Node.js-Module
+
+# npm
+npm-debug.log     # npm Debug-Protokolle
+yarn-error.log    # Yarn Fehlerprotokolle
+
+# Logdateien
+*.log             # Allgemeine Logdateien
+
+# Betriebssystem-spezifische Dateien
+.DS_Store         # macOS spezifische Datei
+Thumbs.db         # Windows Thumbnails
+
+# IDEs und Editoren
+.idea/            # IntelliJ IDEA Projektdateien
+.vscode/          # Visual Studio Code Projektdateien
+*.sublime-workspace # Sublime Text Workspace-Dateien
+
+# Umgebungsdateien
+.env              # Umgebungsvariablen (sollte nicht versioniert werden)
+.env.local        # Lokale Umgebungsdateien
+.env.development  # Entwicklungsumgebungsdateien
+.env.production   # Produktionsumgebungsdateien
